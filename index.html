@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top 5 PSG Players</title>
+    <link rel="stylesheet" href="calculate.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark text-white m-5 text-center" >
+    
+
+    <header class=" mb-5">
+
+       <h1 class="fs-1 text-danger fst-italic p-5"> <b>Top 5 PSG Players</b> </h1>
+
+       <div>
+
+        <p class="text-danger">
+            Paris Saint-Germain Football Club (French pronunciation: ​[paʁi sɛ̃ ʒɛʁmɛ̃]), commonly referred to as Paris Saint-Germain, <br> Paris, Paris SG or simply PSG is a professional football club based in Paris, France.
+        </p>
+
+       </div>
+
+       <div>
+        <img  class="img-fluid w-50 my-5 rounded" src="images/champ.jpg" alt="" srcset="">
+
+       </div>
+       
+ 
+    </header>
+
+
+    <main>
+
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-9">
+
+
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/neymmar.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 id="neymar" class="card-title text-dark">NEYMAR Jr</h5>
+                          <button id="player-1" type="button" class="btn btn-primary" >SELECT</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/messi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 id="messi" class="card-title text-dark">L. MESSI</h5>
+                          <button  id="player-2" type="button" class="btn btn-primary">SELECT</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/mbappe.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 id="mbappe" class="card-title text-dark">K.MBAPPE</h5>
+                          <button id="player-3"  type="button" class="btn btn-primary" >SELECT</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/RAMOS.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 id="ramos" class="card-title text-dark">S. RAMOS</h5>
+                          <button   id="player-4"   type="button" class="btn btn-primary" >SELECT</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/RENATO.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 id="renato" class="card-title text-dark">RENATO</h5>
+                          <button  id="player-5"  type="button" class="btn btn-primary" >SELECT</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/MACHADO.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 id="macado" class="card-title text-dark">V.MACADO</h5>
+                          <button  id="player-6"  type="button" class="btn btn-primary" >SELECT</button>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+                    
+                  </div>     
+
+
+
+              </div>
+              <div class="col-sm-3">
+
+
+                <div class="mb-5">
+
+                    <h3>
+                        Selected-V
+                    </h3>
+
+                    <ol id="li-container">
+                        
+                        
+                    </ol>
+
+                </div>
+
+
+
+                <div class="mt-5">
+                    <h3>
+                        Budget
+                    </h3>
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Per Player</span>
+                        <input id="per-player-field" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    
+                    </div>
+
+                      <button id="calculate-expenses" type="button" class="btn btn-primary w-80">calculate</button>  
+
+                      <p> Player Expenses : $<span id="player-expenses">000</span> </p>
+
+
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Manager</span>
+                        <input id="manager-cost" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Coach</span>
+                        <input id="coach-cost" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    
+                    </div>
+
+                      <button id="total-Cost" type="button" class="btn btn-primary w-80">calculate Total</button>  
+
+                      <p>  Total: $<span id="total-expense" class=" text-danger">000</span></p>
+                      
+
+                      
+                </div>
+
+
+
+              </div>
+            </div>
+            
+          </div>
+
+    </main>
+
+
+
+  <script src="calculate.js"></script>
+   
+  </body>
+</html>
